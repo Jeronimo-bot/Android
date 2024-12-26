@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/raiz"
+    android:gravity="center">
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="150dp"
+        android:layout_height="15dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateTint="#FFFFF0" />
+
+    <TextView
+        android:id="@+id/mensagemLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="May contain ads"
+
+        android:textColor="#E8EAF0"
+        android:textSize="25sp" />
+
+
+
+    <TextView
+        android:id="@+id/mensagemNova"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Nova Mensagem"
+        android:textColor="#E8EAF0"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.lt.colorblock'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.lt.colorblock"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation libs.material
+    implementation libs.activity.v172
+    implementation libs.constraintlayout
+    testImplementation libs.junit
+    androidTestImplementation libs.junit.v115
+    androidTestImplementation libs.espresso.core.v351
+
+    implementation libs.core.ktx
+    implementation libs.preference
+
+    implementation 'com.google.android.gms:play-services-ads:23.4.0'
+
+    def lifecycle_version = "2.3.1"
+
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+
+    implementation libs.lifecycle.extensions
+    implementation libs.lifecycle.runtime
+    implementation libs.lifecycle.common.java8
+}

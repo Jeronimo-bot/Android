@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores Principais -->
+    <color name="colorPrimary">#001219</color>
+    <color name="colorSecondary">#005f73</color>
+    <color name="colorAccent">#0a9396</color>
+    <color name="colorSoftAccent">#001219</color>
+    <color name="colorSoftAccent2">#94d2bd</color>
+    <color name="colorVibrant">#ee9b00</color>
+    <color name="colorWarm1">#ca6702</color>
+    <color name="colorWarm2">#bb3e03</color>
+    <color name="colorStrong">#ae2012</color>
+    <color name="colorDarkAccent">#9b2226</color>
+
+    <!-- Cores Básicas -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Cores Adicionais -->
+    <color name="buttonPressed">#0a9396</color>
+    <color name="menuBackground">#001219</color> <!-- Cor de fundo do Menu -->
+    <color name="zenModeText">#FFFFFF</color> <!-- Cor do texto no Modo Zen -->
+
+    <color name="background">#001219</color>
+    <color name="cor_final">#001219</color>
+
+    <color name="navigation_bar_color">#001219</color>
+    <color name="navigation_bar_border_color">#001219</color>
+</resources>
